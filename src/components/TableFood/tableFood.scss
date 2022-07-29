@@ -1,0 +1,44 @@
+.ArtCardItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+  .ArtCardImg {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+.ArtCardTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+  .ArtCardTitleName {
+      font-weight: 600;
+      align-items: center;
+      display: flex;
+  }
+
+      .ArtCardPrice {
+          font-weight: 300;
+      }
+
+.ArtCardButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+  .ArtCardIcon {
+      font-size: 16px !important;
+      margin-right: 5px;
+  }

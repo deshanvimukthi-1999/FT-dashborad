@@ -1,0 +1,36 @@
+.button {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    padding: 0.5rem 1.25rem;
+    background: linear-gradient(
+                93.15deg,
+                #0cecfc -13.54%,
+                #fa10f7 56.57%,
+                #186ee3 115.93%
+            );
+    .button-glow {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        border-radius: 1px;
+        height: 100%;
+        width: 100%;
+    }
+    &.w-gradient {
+        .button-glow {
+            background: linear-gradient(
+                93.15deg,
+                #0cecfc -13.54%,
+                #fa10f7 56.57%,
+                #186ee3 115.93%
+            );
+            filter: blur(15px);
+        }
+    }
+}
