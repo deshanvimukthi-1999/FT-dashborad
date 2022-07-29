@@ -1,16 +1,14 @@
 .sidebar {
-  flex: 3;
   height: 100vh;
-  background-color: rgb(251, 251, 255);
-  position: sticky;
-  justify-content: center;
+  background-color: rgb(3, 3, 3);
   top: 0%;
+  width: 20%;
   z-index: 999;
 }
 
 .sidebarWrapper {
   padding: 20px;
-  color: rgb(102, 45, 45);
+  color: rgb(244, 240, 240);
 }
 
 .sidebarMenu {
@@ -19,8 +17,7 @@
 
 .sidebarTitle {
   font-size: 18px;
-  color: rgb(20, 18, 18);
-  margin-left: -2px;
+  color: rgb(241, 235, 235);
 }
 
 .sidebarList {
@@ -56,3 +53,4 @@
   text-decoration: navajowhite;
   padding-left: 13;
 }
+
