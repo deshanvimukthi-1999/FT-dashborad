@@ -1,0 +1,39 @@
+.table2{
+    padding: 20px;
+    width: 80%;
+  
+    -webkit-box-shadow: 0px 10px 15px -10px rgba(8, 1, 1, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(8, 0, 0, 0.75);
+   
+}
+    .nav-link{
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.8;
+            color: red;
+        }
+    }
+
+    .table2Img {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+
+        .table2Img1 {
+            width: 10px;
+            height: 10px;
+        
+        }
+            .tab-content{
+                margin-top: 20px;
+                font-size: 14px;
+                word-spacing: 50%;
+                margin-left: 10px;
+            }
+                .tableTr{
+                    padding: auto;
+                    
+                }
+

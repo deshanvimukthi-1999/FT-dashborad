@@ -1,4 +1,4 @@
-import "./sidebar.css";
+import "./sidebar.scss";
 import {
    List, Receipt
 } from '@material-ui/icons';

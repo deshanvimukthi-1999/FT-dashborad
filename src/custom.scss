@@ -1,0 +1,20 @@
+$body-bg:#fafafa;
+
+$primary: #111010;
+$secondary: rgb(221, 191, 191);
+
+$enable-responsive-font-sizes: true;
+
+// button styling
+$input-btn-font-family: "Poppins";
+
+//table styling
+
+$table-th-font-weight: normal;
+
+
+
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
